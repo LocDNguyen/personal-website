@@ -1,5 +1,49 @@
 
 
+.buttons-container {
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    height: 250px;
+    top: 35%;
+    width: 60px;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mybtn {
+    margin: 20px;
+    background-color: rgba(0,0,0,0);
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s;
+}
+.mybtn:active {
+    transform:scale(1.1);
+}
+.fab {
+    font-size: 2.7rem;
+    color: white;
+    transition: all 0.3s;
+    
+}
+.fab:hover {
+    text-shadow: 0 0 10px red;
+    transform: scale(1.1);
+}
+.fas {
+    font-size: 2.2rem;
+    color: white;
+    transition: all 0.3s;
+}
+.fas:hover {
+    text-shadow: 0 0 10px red;
+    transform: scale(1.1);
+}
+
 /* Contact Page */
 .contact-page {
     /* background:url(img/bimg6.gif);
