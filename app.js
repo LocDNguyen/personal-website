@@ -1,5 +1,5 @@
 // site entrance animation
-const t1 = gsap.timeline({defaults:{duration: 2.5}});
+const t1 = gsap.timeline({defaults:{duration: 0}});
 
 t1.to('.welcome', {opacity:1, duration: 2.5})
 .to('.welcome', {opacity:0}, "+=1")
