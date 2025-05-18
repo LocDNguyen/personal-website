@@ -1,23 +1,23 @@
 // site entrance animation
-// const t1 = gsap.timeline({defaults:{duration: 2.5}});
+const t1 = gsap.timeline({defaults:{duration: 2.5}});
 
-// t1.to('.welcome', {opacity:1, duration: 2.5})
-// .to('.welcome', {opacity:0}, "+=1")
-// .to('.loading', {y: '-100%', duration: 1})
-// .fromTo('.navbar-container', 1.5, {opacity: 0}, {opacity: 1, ease: Power2.ease})
-// .fromTo('#navlink1', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.5")
-// .fromTo('#navlink2', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.25")
-// .fromTo('#navlink3', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.0")
-// .fromTo('#navlink4', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=0.75")
-// .fromTo('#navlink5', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=0.6")
-// .fromTo('#intro3', 2.5, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=1.5")
-// .fromTo('#intro2', 2.5, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=2.5")
-// .fromTo('#intro1', 2, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=2")
-// .fromTo(".buttons-container", 1.5, {opacity: 0}, {opacity: 1, ease:Power2.ease}, "-=1.5")
-// .fromTo('.mybtn.linkedin-btn', 1.25, {x:'250%'}, {x:'0%'}, "-=1.0")
-// .fromTo('#resume-btn', 1.25, {x:'300%'}, {x:'0%'}, "-=1.25")
-// .fromTo('.mybtn.github-btn', 1.25, {x:'250%'}, {x:'0%'}, "-=1.5")
-// .to('body',{overflowY: 'scroll', duration: 0})
+t1.to('.welcome', {opacity:1, duration: 2.5})
+.to('.welcome', {opacity:0}, "+=1")
+.to('.loading', {y: '-100%', duration: 1})
+.fromTo('.navbar-container', 1.5, {opacity: 0}, {opacity: 1, ease: Power2.ease})
+.fromTo('#navlink1', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.5")
+.fromTo('#navlink2', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.25")
+.fromTo('#navlink3', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.0")
+.fromTo('#navlink4', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=0.75")
+.fromTo('#navlink5', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=0.6")
+.fromTo('#intro3', 2.5, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=1.5")
+.fromTo('#intro2', 2.5, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=2.5")
+.fromTo('#intro1', 2, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=2")
+.fromTo(".buttons-container", 1.5, {opacity: 0}, {opacity: 1, ease:Power2.ease}, "-=1.5")
+.fromTo('.mybtn.linkedin-btn', 1.25, {x:'250%'}, {x:'0%'}, "-=1.0")
+.fromTo('#resume-btn', 1.25, {x:'300%'}, {x:'0%'}, "-=1.25")
+.fromTo('.mybtn.github-btn', 1.25, {x:'250%'}, {x:'0%'}, "-=1.5")
+.to('body',{overflowY: 'scroll', duration: 0})
 
 // Force Page Scroll to Top
 window.onbeforeunload = function () {
