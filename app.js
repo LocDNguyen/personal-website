@@ -20,10 +20,9 @@
 // .to('body',{overflowY: 'scroll', duration: 0})
 
 // Force Page Scroll to Top
-document.addEventListener('DOMContentLoaded', function() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-});
+window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+};
 // resume animation (slide from right)
 const resume_btn = document.getElementById("resume-btn");
 const resume = document.getElementById("resume");
