@@ -7,12 +7,12 @@ ScrollTrigger.clearScrollMemory("manual");
 window.scrollTo(0, 0);
 
 // site entrance animation
-const t1 = gsap.timeline({defaults:{duration: .1}});
+const t1 = gsap.timeline({defaults:{duration: 0}});
 
-t1.to('.welcome', {opacity:1, duration: .1})
+// t1.to('.welcome', {opacity:1, duration: .1})
 // .to('.welcome', {opacity:0}, "+=1")
 // .to('.loading', {y: '-100%', duration: .1})
-.fromTo('.navbar-container', 1.5, {opacity: 0}, {opacity: 1, ease: Power2.ease})
+t1.fromTo('.navbar-container', 1.5, {opacity: 0}, {opacity: 1, ease: Power2.ease})
 .fromTo('#navlink1', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.5")
 .fromTo('#navlink2', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.25")
 .fromTo('#navlink3', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.0")
