@@ -1,0 +1,86 @@
+/* Contact Page */
+
+.contact-header{
+    background: rgba(45, 83, 207, 0.9);
+    font-size: 3rem;
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0  0 5px rgba(0,0,0,0.6);
+}
+#hey-thanks {
+    font-size: 1.1rem;
+    text-shadow: 0 0 15px black;
+}
+.row-about-me {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.link-list {
+    margin:20px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+.fas.fa-envelope {
+    font-size: 2.7rem;
+}
+.link-list li{
+    margin: 15px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px rgba(0,0,0, 0.7);
+    width:115px;
+    height:115px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.2);
+}
+.link-name {
+    margin:5px;
+}
+.contact-link {
+    background:none;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    outline:none;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.contact-link-pressed {
+    transform:scale(1.1);
+    text-shadow: 0 0 10px blue;
+}
+.contact-link:hover {
+    transform:scale(1.1);
+    text-shadow: 0 0 10px blue;
+}
+.hey-thanks-container {
+    position: relative;
+}
+.email-container {
+    background: rgba(0,0,0,0.7);
+    position:absolute;
+    bottom: 0%;
+    opacity:0%;
+    left:50%;
+    transform:translateX(-50%);
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    width: 200px;
+    height:40px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
