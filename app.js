@@ -18,17 +18,17 @@
 //     }
 // }
 // // email container at the bottom of page
-// let econtainer = document.getElementById("email-container");
-// let ebtn = document.getElementById("email-btn");
-// let email_opened = false;
-// ebtn.addEventListener("click", ()=> {
-//     if(!email_opened) {
-//         econtainer.style.opacity = "100%";
-//         ebtn.classList.add("contact-link-pressed");
-//     }
-//     else {
-//         econtainer.style.opacity="0%";
-//         ebtn.classList.remove("contact-link-pressed");;
-//     }
-//     email_opened=!email_opened;
-// })
+let econtainer = document.getElementById("email-container");
+let ebtn = document.getElementById("email-btn");
+let email_opened = false;
+ebtn.addEventListener("click", ()=> {
+    if(!email_opened) {
+        econtainer.style.opacity = "100%";
+        ebtn.classList.add("contact-link-pressed");
+    }
+    else {
+        econtainer.style.opacity="0%";
+        ebtn.classList.remove("contact-link-pressed");;
+    }
+    email_opened=!email_opened;
+})
