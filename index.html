@@ -9,41 +9,366 @@
 </head>
 <body>
     <main>
-        <h1>Wow check this out</h1>
-        <p>ing</p>
-        <!-- contact me page -->
-            <section id="contact-page" class="contact-page">
-                <h3 data-aos="slide-right"class="contact-header">Contact me</h3>
-                <!-- <div data-aos="slide-left"data-aox-delay="200" class="row-about-me"> -->
-                    <div class="hey-thanks-container">
-                        <p id="hey-thanks">Thanks for visiting! Here are some ways you can contact me.<br />
-                        </p>
-                        <ul class="link-list">
+        <!-- Top/Front Page -->
+        <div id="navbar" class="navbar-container">
+            <ul class="nav-btn-list">
+                <li id="navlink1"><a href="#top-of-page" class="navlink">Home</a></li>
+                <li id="navlink2"><a href="#technical-skills-page" class="navlink">Technical Skills</a></Technical>
+                </li>
+                <li id="navlink3"><a href="#projects-page" class="navlink">Projects</a></li>
+                <li id="navlink5"><a href="#contact-page" class="navlink">Contact me</a></li>
+            </ul>
+        </div>
+        <a id="top-btn" href="#top-of-page" title="Top of page" class="top-of-page-btn">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <section id="top-of-page" class="landing">
+            <video autoplay muted loop class="back-vid front" src="background_videos/bvid1.mp4"></video>
+            <div class="buttons-container">
+                <a target="_blank" href="https://www.linkedin.com/in/johnson-tong-11311917a/"
+                    class="mybtn linkedin-btn">
+                    <i class="fab fa-linkedin top"></i>
+                </a>
+                <button title="Resume" id="resume-btn" class="mybtn resume-btn">
+                    <i class="fas fa-file"></i>
+                </button>
+                <a title="Website repo"target="_blank" href="https://github.com/longtongj28/personal-website"
+                    class="mybtn github-btn">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="intro">
+                <h1 id="intro1">Hi! I'm Johnson Tong,</h1>
+                <br />
+                <p id="intro2">&nbsp;&nbsp;&nbsp;&nbsp;<em>currently a computer science student at CSUF<br /><br /></em>
+                </p>
+                <p id="intro3">&nbsp;&nbsp;&nbsp;&nbsp;<em>for a quick overview, click on my resume to the
+                        <strong>right</strong> or use the shortcuts <strong>above</strong></em></p>
+            </div>
+            <embed id="resume" class="resume" src="pdf/Johnson_Tong_Resume.pdf" />
+        </section>
+        <!-- Technical Skills Page -->
+        <section id="technical-skills-page" class="technical-skills-page">
+            <div data-aos="slide-right" class="tech-skills-container">
+                <h3   data-aos-duration="400" class="headers">
+                    Technical Skills:<br /> What have I worked with?</h3>
+                <p   data-aos-duration="400">You can check out some
+                    examples of my code through my projects and github!</p>
+                <h4   data-aos-duration="400">Languages</h4>
+                <ul   data-aos-duration="400" class="languages">
+                    <li class="languages-ele">
+                        <div class="score-row">
+                            C++
+                            <span class="score">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="languages-ele">
+                        <div class="score-row">
+                            HTML and CSS
+                            <span class="score">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="languages-ele">
+                        <div class="score-row">
+                            JavaScript
+                            <span class="score">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="languages-ele">
+                        <div class="score-row">
+                            Python
+                            <span class="score">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="languages-ele">
+                        <div class="score-row">
+                            Java
+                            <span class="score">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+                <div  class="technologies">
+                    <h4>Technologies</h4>
+                    <p>I don't consider myself a complete expert on all these things, but I know my way around them.</p>
+                    <ul class="tech-list">
+                        <li>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>MATLAB</p>
+                            <p>Mongoose/MongoDB</p>
+                        </li>
+                        <li>
+                            <p>Git and Github</p>
+                            <p>AutoCAD</p>
+                            <p>SolidWorks</p>
+                        </li>
+                    </ul>
+                    <div >
+                        <h4>Courses</h4>
+                        <p>Here's a list of relevant courses that I've taken at CSUF.</p>
+                        <ul class="tech-list">
                             <li>
-                                <p class="link-name">Github</p>
-                                <a target="_blank" href="https://github.com/locdnguyen" class="contact-link">
-                                    <i class="fab fa-github"></i>
-                                </a>
+                                <p>Object Oriented Programming in C++</p>
+                                <p>Data Structures in C++</p>
                             </li>
                             <li>
-                                <p class="link-name">Email</p>
-                                <button id="email-btn" class="contact-link">
-                                    <i class="fas fa-envelope"></i>
-                                </button>
+                                <p>Digital Computation in MATLAB</p>
+                                <p>Assembly Language (x86 Intel)</p>
                             </li>
                             <li>
-                                <p class="link-name">LinkedIn</p>
-                                <a target="_blank" href="https://www.linkedin.com/in/loc-nguyen-4ab77b273"
-                                    class="contact-link">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
+                                <p>Calculus(I-III)</p>
+                                <p>Intro to Java</p>
+                            </li>
+                            <li>
+                                <p>Linear Algebra and Differential Equations</p>
+                                <p>Mathematical Structures(I-II)</p>
                             </li>
                         </ul>
-                        <div id="email-container" class="email-container">locdacnguyen0@gmail.com</div>
                     </div>
-                <!-- </div> -->
-            </section>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects-page" class="projects-page">
+            <video autoplay muted loop class="back-vid-projects" src="background_videos/back3.mp4"></video>
+            <h3 class="headers projects">Projects</h3><br />
+            <div class="sorting-project">
+                <h3 class="project-titles"><em> Open Source Contributions </em></h3>
+                <div class="project-row open-src">
+                    <img src="https://user-images.githubusercontent.com/42697600/156945009-61b6d6de-0ca3-4c7a-a312-ea79e8e13ec8.png"></img>
+                    <ul class="description sort">
+                        <li><a class="links" href="https://github.com/b0bdN/prayer-times-menubar-app" target="_blank">Prayer times menubar app</a></li>
+                        <li>Added a pop up window when the user inputs the wrong format for changing the location</li>
+                    </ul>
+                </div>
+                <div class="project-row open-src">
+                    <img src="https://media.discordapp.net/attachments/972309888980103272/972311306071859251/unknown.png"></img>
+                    <ul class="description sort">
+                        <li><a class="links" href="https://github.com/nadchif/html-duration-picker.js" target="_blank">HTML Duration Picker</a></li>
+                        <li>Fixed a bug that caused MM/DD/YY format to show incorrectly on the duration picker.</li>
+                    </ul>
+                </div>
+                <div class="project-row open-src">
+                    <img src="https://cdn.discordapp.com/attachments/972309888980103272/972309903970533376/unknown.png"></img>
+                    <ul class="description sort">
+                        <li><a class="links" href="https://github.com/longtongj28/price-notifier" target="_blank">Best Buy Price Notifier</a></li>
+                        <li>Simple open source application that notifies users when prices change on their products </li>
+                        <li>Handle and review open source contributions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sorting-project">
+                <h3 class="project-titles"><em> More Projects... </em></h3>
+                <div class="project-row open-src">
+                    <img src="https://media.discordapp.net/attachments/938958770896257099/953789243594010634/Screen_Shot_2022-03-16_at_3.57.43_PM.png?width=1018&height=644"></img>
+                    <ul class="description sort">
+                        <li><a class="links" href="https://github.com/longtongj28/fitness-game" target="_blank">Fitness app that allows users to find activities</a></li>
+                        <li>Collaborated with a group of 4 other students to create an application through 2 week sprints</li>
+                    </ul>
+                </div>
+                <div class="project-row open-src">
+                    <ul class="description sort">
+                        <li><a class="links" href="https://github.com/Manny-op/CPSC-362-Project" target="_blank">Blood Souls game</a></li>
+                        <li>Collaborated with another group of 5 other students to create an application through 2 week sprints</li>
+                        <li>I was "onboarded" onto a new team, which required me to adapt and learn Unity quickly.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sorting-project">
+                <h3 class="project-titles"><em> Sorting
+                        Visualizer </em></h3>
+                <div class="project-row sorting">
+                    <iframe
+                        width="560" height="315" src="https://www.youtube.com/embed/qN1SbD2A25Y"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <ul class="description sort">
+                        <li>My first major attempt at using React</li>
+                        <li>Learned how to animate things and use CSS with HTML, I really enjoyed making the UI for this
+                        </li>
+                        <li>Learned about and implemented the major sorting algorithms such as merge sort.</li>
+                        <li>Explained the algorithms in detail, providing pseudocode and time complexitiies.</li>
+                        <li>Took advantage of some libraries like react-modal</li>
+                        <li>Check it out <a class="links" target="_blank"
+                                href="https://longtongj28.github.io/sorting-visualizer/">here</a>!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grades-project">
+                <h3 class="project-titles"><em> Grades? Web App</em></h3>
+                <div class="project-row grades">
+                    <iframe  class="video" width="560" height="315" src="https://www.youtube.com/embed/xoK2B_fRclM"
+                        title="YouTube video player" frameborderclipboard="0"
+                        allow="accelerometer; autoplay; -write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <ul class="description grades">
+                       hgh <li>Full stack application implemented using the MongooDB, Express, React, and Node.js tech
+                            stack.</li>
+                        <li>Designed and managed front-end application state through several components (React)</li>
+                        <li>Designed and implemented the REST API with the CRUD operations that allowed communication
+                            with MongoDB, my database provider (Node.js, Express, and Postman)</li>
+                        <li>
+                            The structural model for the data was this:<br />User->Courses->Course Categories->Category
+                            Assignments<br />
+                        </li>
+                        <li>
+                            I had several challenges with the data that were fixed by carrying the item key/ID from
+                            higher levels of data to lower levels, which helped me implement delete and put requests.
+                        </li>
+                        <li>
+                            I needed a provider to deploy my website, since it's not a typical static website. I chose
+                            Heroku for that, and learned how to integrate the necessary heroku scripts into my own
+                            applications build script.
+                        </li>
+                        <li>
+                            Reflections: <br />I would use React Redux for global application state rather than managing
+                            and passing through components.<br />
+                            It also would have been a better idea to design the entire structural model for the data
+                            before implementing it.
+                        </li>
+                        <li>
+                            Check it out <a target="_blank" class="links"
+                                href="https://grades-calculator-jt28.herokuapp.com/">here</a>!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="battleship-project">
+                <h3  class="project-titles"><em> MATLAB Battleship Game</em></h3>
+                <div   class="project-row battleship">
+                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/i0ZSfx5bW2E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <ul class="description battleship">
+                        <li> Meet MATLAB Battleship, a terminal game that was deceptively difficult to make.</li>
+                        <li> User input verification was the biggest challenge. My group members helped me by testing
+                            the game continuously and reporting errors to me.</li>
+                        <li> Non-valid inputs were taken into consideration in designing the game.</li>
+                        <li> For example, placing ships on top of each other or outside the board prompts the user
+                            again.</li>
+                        <li> The next most challenging part was the single player AI. There are two difficulties here,
+                            easy and hard.</li>
+                        <li>The easy difficulty simply guesses random areas on the board. I had a lot of fun figuring
+                            out what the hard difficulty meant. <br />
+                            Eventually, I made a simple algorithm for the computer to keep guessing until it hits a
+                            ship. If it does, then search around that hit. </li>
+                        <li> Download MATLAB's IDE and play Battleship after downloading it from <a class="links"
+                                target="_blank" href="https://github.com/longtongj28/matlab-battleship">here</a>!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="stapler-project">
+                <h3  class="project-titles"><em> Stapler Assembly and other ME projects</em></h3>
+                <div class="project-row stapler">
+                    <embed  class="stapler-pdf" src="pdf/Stapler Assembly.pdf">
+                    <ul  class="description stapler">
+                        <li> My favorite project from my first year in Mechanical Engineering. </li>
+                        <li> Unfortunately, I don't remember too many specific details such as terminology, but I'll try
+                            my best to describe what's going on.</li>
+                        <li> The table in the top right is a list of components that had to be individually made in
+                            their own files.</li>
+                        <li> I had some fun inscribing the class name into the side of the stapler.</li>
+                        <li> Really learned a lot about how a stapler works from taking it apart.</li>
+                        <li> The five views that you can see are the standard views for professional engineering
+                            drawings.</li>
+                        <li> Made in SolidWorks</li>
+                        <li> Check out my other work <a class="links" target="_blank"
+                                href="https://www.dropbox.com/sh/5cvt2hw9t6lzc0j/AADrDaDVNy7DeJucVB24jbkZ">here</a>!
+                            You'll find both AutoCAD and SolidWorks projects there.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- contact me page -->
+        <section id="contact-page" class="contact-page">
+            <h3 data-aos="slide-right"class="contact-header">Contact me</h3>
+            <div data-aos="slide-left"data-aox-delay="200" class="row-about-me">
+                <div class="mypic-container"></div>
+                <div class="hey-thanks-container">
+                    <p id="hey-thanks">Hey! Thanks for visiting my website! Here are some ways you can contact me.<br />
+                    </p>
+                    <ul class="link-list">
+                        <li>
+                            <p class="link-name">Github</p>
+                            <a target="_blank" href="https://github.com/longtongj28" class="contact-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="link-name">Email</p>
+                            <button id="email-btn" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <p class="link-name">LinkedIn</p>
+                            <a target="_blank" href="https://www.linkedin.com/in/johnson-tong-11311917a/"
+                                class="contact-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div id="email-container" class="email-container">jt28@csu.fullerton.edu</div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>© 2021 Johnson Tong</p>
+        </footer>
     </main>
-    <!-- <script src="app.js"></script> -->
+    <!-- This is the black pane that is in effect when the page loads -->
+    <div class="loading">
+        <div class="welcome-container">
+            <p class="welcome">Welcome!<br />Learn a bit about me and enjoy the website.<br />
+                - Johnson</p>
+            <div>
+            </div>
+            <!-- ............................... -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+                integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+                crossorigin="anonymous">
+                </script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
+                integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw=="
+                crossorigin="anonymous">
+                </script>
+
+            <script src="app.js"></script>
 </body>
 </html>
