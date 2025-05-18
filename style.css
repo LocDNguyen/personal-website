@@ -33,7 +33,7 @@ main {
     align-content: center;
 }
 
-.buttons-container {
+/* .buttons-container {
     position: absolute;
     background: rgba(0,0,0,0.3);
     border-radius: 10px;
@@ -75,7 +75,7 @@ main {
 .fas:hover {
     text-shadow: 0 0 10px red;
     transform: scale(1.1);
-}
+} */
 
 /* Contact Page */
 .contact-page {
