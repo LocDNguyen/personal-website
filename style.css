@@ -1,86 +1,6 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
-    transition: scroll-behavior 0.4s;
-}
-
-::-webkit-scrollbar {
-    width: 15px; 
-    border-radius: 10px;
-    padding:5px;
-} 
-::-webkit-scrollbar-track{
-    background:rgba(0,0,0,0.3);
-}
-::-webkit-scrollbar-thumb{
-    width: 9px;
-    background: rgba(0,0,0,0.4);
-    border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background:rgba(0,0,0,0.6);
-}*/
-body{
-    overflow-x:hidden;
-    overflow: hidden;
-}
-main {
-    display:flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-/* .buttons-container {
-    position: absolute;
-    background: rgba(0,0,0,0.3);
-    border-radius: 10px;
-    height: 250px;
-    top: 35%;
-    width: 60px;
-    right: 1%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.mybtn {
-    margin: 20px;
-    background-color: rgba(0,0,0,0);
-    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
-    border: none;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.2s;
-}
-.mybtn:active {
-    transform:scale(1.1);
-}
-.fab {
-    font-size: 2.7rem;
-    color: white;
-    transition: all 0.3s;
-    
-}
-.fab:hover {
-    text-shadow: 0 0 10px red;
-    transform: scale(1.1);
-}
-.fas {
-    font-size: 2.2rem;
-    color: white;
-    transition: all 0.3s;
-}
-.fas:hover {
-    text-shadow: 0 0 10px red;
-    transform: scale(1.1);
-} */
 
 /* Contact Page */
-.contact-page {
-    /* background:url(img/bimg6.gif);
-    background-size: cover; */
+/* .contact-page {
     padding: 8rem;
     color: rgb(58, 82, 58);
     min-width: 100vw;
@@ -171,4 +91,4 @@ main {
     height:40px;
     text-align: center;
     transition: all 0.3s ease-in-out;
-}
+} */
