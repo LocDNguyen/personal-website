@@ -2,9 +2,9 @@
 // window.onbeforeunload = function () {
 //     window.scrollTo(0,0);
 // }
-gsap.registerPlugin(ScrollTrigger);
-ScrollTrigger.clearScrollMemory("manual");
-window.scrollTo(0, 0);
+// gsap.registerPlugin(ScrollTrigger);
+// ScrollTrigger.clearScrollMemory("manual");
+// window.scrollTo(0, 0);
 
 // site entrance animation
 const t1 = gsap.timeline({defaults:{duration: .1}});
