@@ -1,39 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
-    transition: scroll-behavior 0.4s;
-}
 
-::-webkit-scrollbar {
-    width: 15px; 
-    border-radius: 10px;
-    padding:5px;
-} 
-::-webkit-scrollbar-track{
-    background:rgba(0,0,0,0.3);
-}
-::-webkit-scrollbar-thumb{
-    width: 9px;
-    background: rgba(0,0,0,0.4);
-    border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background:rgba(0,0,0,0.6);
-}
-body{
-    overflow-x:hidden;
-    overflow: hidden;
-}
-main {
-    display:flex;
-    flex-direction: column;
-    align-content: center;
-}
 
 /* Contact Page */
+.contact-page {
+    /* background:url(img/bimg6.gif);
+    background-size: cover; */
+    padding: 8rem;
+    color: white;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
 
 .contact-header{
     background: rgba(45, 83, 207, 0.9);
