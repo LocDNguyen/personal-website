@@ -32,6 +32,7 @@ main {
     flex-direction: column;
     align-content: center;
 }
+
 /* Front page */
 .landing{
     min-height: 100vh;

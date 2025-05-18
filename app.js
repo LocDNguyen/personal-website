@@ -1,3 +1,8 @@
+// Force Page Scroll to Top
+window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+}
+
 // site entrance animation
 const t1 = gsap.timeline({defaults:{duration: .5}});
 
@@ -19,10 +24,6 @@ t1.to('.welcome', {opacity:1, duration: .5})
 .fromTo('.mybtn.github-btn', 1.25, {x:'250%'}, {x:'0%'}, "-=1.5")
 .to('body',{overflowY: 'scroll', duration: 0})
 
-// Force Page Scroll to Top
-window.onbeforeunload = function () {
-    window.scrollTo(0,0);
-}
 // resume animation (slide from right)
 const resume_btn = document.getElementById("resume-btn");
 const resume = document.getElementById("resume");
