@@ -1,7 +1,7 @@
 // site entrance animation
-const t1 = gsap.timeline({defaults:{duration: 1}});
+const t1 = gsap.timeline({defaults:{duration: 2.5}});
 
-t1.to('.welcome', {opacity:1, duration: 1})
+t1.to('.welcome', {opacity:1, duration: 2.5})
 .to('.welcome', {opacity:0}, "+=1")
 .to('.loading', {y: '-100%', duration: 1})
 .fromTo('.navbar-container', 1.5, {opacity: 0}, {opacity: 1, ease: Power2.ease})
