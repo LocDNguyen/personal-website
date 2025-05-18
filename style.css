@@ -76,7 +76,11 @@ main {
     text-shadow: 0 0 10px red;
     transform: scale(1.1);
 } */
-
+body{
+    margin: 0;
+    background: rgb(170, 233, 170);
+    text-align: center;
+}
 /* Contact Page */
 .contact-page {
     /* background:url(img/bimg6.gif);
