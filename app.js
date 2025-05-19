@@ -23,7 +23,7 @@ t1.to('.welcome', {opacity:1, duration: .5})
 .fromTo('#intro1', 2, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=2")
 .fromTo(".buttons-container", 1.5, {opacity: 0}, {opacity: 1, ease:Power2.ease}, "-=1.5")
 .fromTo('.mybtn.linkedin-btn', 1.25, {x:'250%'}, {x:'0%', ease:Power2.ease}, "-=1.5")
-.fromTo('#resume-btn', 1.25, {x:'450%'}, {x:'0%', ease:Power2.ease}, "-=1.5")
+.fromTo('#resume-btn', 1.25, {x:'350%'}, {x:'0%', ease:Power2.ease}, "-=1.5")
 .fromTo('.mybtn.github-btn', 1.25, {x:'250%'}, {x:'0%', ease:Power2.ease}, "-=1.5")
 .to('body',{overflowY: 'scroll', duration: 0})
 
