@@ -2,22 +2,19 @@
 // window.onbeforeunload = function () {
 //     window.scrollTo(0,0);
 // }
-// gsap.registerPlugin(ScrollTrigger);
-// ScrollTrigger.clearScrollMemory("manual");
-// window.scrollTo(0, 0);
 
 // site entrance animation
 const t1 = gsap.timeline();//{defaults:{duration: .5}});
 
 t1.to('.welcome', {opacity:1, duration: .5})
 .to('.welcome', {opacity:0}, "+=1")
-//.to('.loading', {y: '-100%', duration: .5})
-.fromTo('.navbar-container', 1.5, {opacity: 0}, {opacity: 1, ease: Power2.ease})
-.fromTo('#navlink1', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.5")
+// .to('.loading', {y: '-100%', duration: .5}) // For raising the curtain
+.fromTo('.navbar-container', 1.5, {opacity: 0}, {opacity: 3, ease: Power2.ease}, "-=.1")
+.fromTo('#navlink1', 1, {y: '-200%'}, {y: '0%', ease: Power2.ease}, "-=1.5")
 .fromTo('#navlink2', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.25")
 .fromTo('#navlink3', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=1.0")
 //.fromTo('#navlink4', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=0.75")
-.fromTo('#navlink5', 1, {y: '-150%'}, {y: '0%', ease: Power2.ease}, "-=0.6")
+.fromTo('#navlink5', 1, {y: '-200%'}, {y: '0%', ease: Power2.ease}, "-=0.6")
 .fromTo('#intro3', 2.5, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=1.5")
 .fromTo('#intro2', 2.5, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=2.5")
 .fromTo('#intro1', 2, {x: '-150%'}, {x: '0%', ease:Power2.ease}, "-=2")
