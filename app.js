@@ -7,7 +7,7 @@
 // window.scrollTo(0, 0);
 
 // site entrance animation
-const t1 = gsap.timeline({defaults:{duration: .5}});
+const t1 = gsap.timeline();//{defaults:{duration: .5}});
 
 t1.to('.welcome', {opacity:1, duration: .5})
 .to('.welcome', {opacity:0}, "+=1")
